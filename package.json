@@ -1,0 +1,15 @@
+{
+  "name": "scholaris",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Scholaris: school management system (React + Express + PostgreSQL)",
+  "scripts": {
+    "setup": "npm --prefix server install && npm --prefix client install",
+    "dev:api": "npm --prefix server run dev",
+    "dev:web": "npm --prefix client run dev",
+    "build": "npm --prefix client run build && npm --prefix server run build",
+    "start": "npm --prefix server start",
+    "test": "npm --prefix server test"
+  }
+}
