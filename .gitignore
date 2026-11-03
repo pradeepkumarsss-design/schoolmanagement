@@ -6,3 +6,4 @@ dist-demo
 !.env.example
 !.env.supabase.example
 *.crt
+.vercel
